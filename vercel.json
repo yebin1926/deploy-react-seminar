@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://django-deploy-seminar-pj.fly.dev/api/:path*"
+    },
+    {
+      "source": "/api/:path*/",
+      "destination": "https://django-deploy-seminar-pj.fly.dev/api/:path*/"
+    }
+  ]
+}

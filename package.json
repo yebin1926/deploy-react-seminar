@@ -40,5 +40,7 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
-  }
+  },
+  "proxy": "http://localhost:8000/",
+  "proxy": "https://django-deploy-seminar-pj.fly.dev/"
 }

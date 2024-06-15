@@ -2,7 +2,7 @@ import axios from "axios";
 import { getCookie } from "../utils/cookie";
 
 // baseURL, credential, 헤더 세팅
-axios.defaults.baseURL = "http://localhost:8000/api";
+axios.defaults.baseURL = "/api";
 axios.defaults.withCredentials = true;
 axios.defaults.headers.post["Content-Type"] = "application/json";
 axios.defaults.headers.common["X-CSRFToken"] = getCookie("csrftoken");
